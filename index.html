@@ -6,11 +6,11 @@
         <title>Burning Man Finger</title>
         <meta name="description" content="Landing page for the Burning Man Finger" />
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="bootstrap.min.css" />
-        <link rel="stylesheet" href="main.css" />
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="main.min.css" />
         <!--[if lt IE 9]>
-          <script src="//oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-          <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+          <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
     <body>
@@ -32,13 +32,13 @@
 		  ga('create', 'UA-43922843-1', 'azurewebsites.net');
 		  ga('send', 'pageview');
 
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=233919090139023";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
 		</script>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=233919090139023";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
     </body>
 </html>
