@@ -1,56 +1,78 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>Burning Man Finger</title>
-        <meta name="description" content="Landing page for the Burning Man Finger" />
-        <meta name="viewport" content="width=device-width" />
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Burning Man Finger</title>
+    <meta name="description" content="Landing page for the Burning Man Finger" />
+    <meta name="viewport" content="width=device-width" />
 
-		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="Content/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="Content/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="Content/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="Content/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="Content/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="Content/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="Content/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="Content/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Content/apple-touch-icon-180x180.png" />
 
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="main.min.css" />
-        <!--[if lt IE 9]>
-          <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-          <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
+    <link rel="stylesheet" href="Content/main.min.css" />
+    <!--[if lt IE 9]>
+        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
     <div id="fb-root"></div>
-		<div id='bmf' class='hidden-xs hidden-sm'></div>
-		<img src='BurningManFingerLeft.jpg' class='img-responsive center-block hidden-md hidden-lg' />
-		<img src='BurningManFingerRight.jpg' class='img-responsive center-block hidden-md hidden-lg' />
-		<div class="visible-lg fb-like-box" data-href="https://www.facebook.com/BurningManFinger" data-width="200" data-height="500" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
-		<center class="fb-like-box-wrapper hidden-lg">
-			<div class="fb-like-box" data-href="https://www.facebook.com/BurningManFinger" data-width="500" data-height="200" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
-		</center>
-		<div id="fb-root"></div>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-43922843-1', 'azurewebsites.net');
-		  ga('send', 'pageview');
+    <div id="bmf" class="hidden-xs hidden-sm"></div>
 
-		(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=233919090139023";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
-    </body>
+    <img src="Content/BurningManFingerLeft.jpg" class="img-responsive center-block hidden-md hidden-lg" alt="left side of card" />
+    <img src="Content/BurningManFingerRight.jpg" class="img-responsive center-block hidden-md hidden-lg" alt="right side of card" />
+
+    <div class="visible-lg fb-page" data-href="https://www.facebook.com/burningmanfinger" data-width="200" data-height="500"
+         data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true">
+        <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/burningmanfinger">
+                <a href="https://www.facebook.com/burningmanfinger">Burning Man Finger</a>
+            </blockquote>
+        </div>
+    </div>
+
+    <div class="fb-page-wrapper hidden-lg">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="fb-like" data-href="https://www.facebook.com/burningmanfinger" data-width="495" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function (d, s, id) {
+            var fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            var js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=233919090139023";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-43922843-1', 'azurewebsites.net');
+        ga('send', 'pageview');
+    </script>
+</body>
 </html>
