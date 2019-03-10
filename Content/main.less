@@ -1,8 +1,8 @@
 //***** BEGIN Bootstrap.less *****//
 
 /*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
@@ -68,57 +68,59 @@
 @bmf-margin: 10px;
 
 #bmf {
-    background: black url("BurningManFinger.jpg") no-repeat scroll center top;
-    background-size: auto 100%;
-    position: absolute;
-    top: @bmf-margin;
-    left: 0;
-    right: 0;
+  background: black url("BurningManFinger.jpg") no-repeat scroll center top;
+  background-size: auto 100%;
+  position: absolute;
+  top: @bmf-margin;
+  left: 0;
+  right: 0;
 }
 
 .fb-page-wrapper {
-    height: @fb-height;
+  height: @fb-height;
 
-    .panel {
-        max-width: (@fb-width + @panel-body-padding + @panel-body-padding + 2); //2 for border
-        .center-block();
-        margin-bottom: @bmf-margin;
-        padding: @panel-body-padding;
-    }
+  .panel {
+    max-width: (
+      @fb-width + @panel-body-padding + @panel-body-padding + 2
+    ); //2 for border
+    .center-block();
+    margin-bottom: @bmf-margin;
+    padding: @panel-body-padding;
+  }
 
-    .panel-body {
-        overflow: hidden;
-        padding: 0;
-    }
+  .panel-body {
+    overflow: hidden;
+    padding: 0;
+  }
 }
 
 @media (max-width: @screen-sm-max) {
-    .fb-page-wrapper {
-        margin-top: @bmf-margin;
-    }
+  .fb-page-wrapper {
+    margin-top: @bmf-margin;
+  }
 }
 
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-    #bmf {
-        bottom: (@fb-height + @bmf-margin);
-    }
+  #bmf {
+    bottom: (@fb-height + @bmf-margin);
+  }
 
-    .fb-page-wrapper {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
+  .fb-page-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 @media (min-width: @screen-lg-min) {
-    #bmf {
-        bottom: @bmf-margin;
-    }
+  #bmf {
+    bottom: @bmf-margin;
+  }
 
-    .fb-page {
-        margin-top: @bmf-margin;
-        margin-right: @bmf-margin;
-        .pull-right();
-    }
+  .fb-page {
+    margin-top: @bmf-margin;
+    margin-right: @bmf-margin;
+    .pull-right();
+  }
 }
