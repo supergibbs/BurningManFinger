@@ -1,0 +1,26 @@
+{
+  "name": "burningmanfinger",
+  "version": "1.0.0",
+  "description": "Website to promote the Burning Man Finger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supergibbs/BurningManFinger.git"
+  },
+  "keywords": [
+    "burning",
+    "man"
+  ],
+  "author": "Ranger Chino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supergibbs/BurningManFinger/issues"
+  },
+  "homepage": "https://github.com/supergibbs/BurningManFinger#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
